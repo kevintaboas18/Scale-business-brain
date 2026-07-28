@@ -54,6 +54,25 @@ else
 fi
 corpus_root="$pack_root/corpus"
 
+prepare_corpus() {
+  if [[ -d "$corpus_root/segments" ]] || \
+    [[ -d "$corpus_root/episodes" ]]; then
+    return
+  fi
+
+  local archive="$corpus_root/segments.tar.xz"
+  if [[ ! -f "$archive" ]]; then
+    return
+  fi
+  if ! command -v tar >/dev/null 2>&1; then
+    printf '%s\n' \
+      "error: tar is required to unpack the bundled marketplace corpus." >&2
+    exit 1
+  fi
+  printf '%s\n' "Unpacking the bundled transcript corpus..."
+  tar -xJf "$archive" -C "$corpus_root"
+}
+
 require_runtime() {
   if ! command -v python3 >/dev/null 2>&1; then
     printf '%s\n' "error: Python 3.10+ is required." >&2
@@ -65,6 +84,7 @@ require_runtime() {
       "Install it from https://github.com/qntx-labs/qmd and retry." >&2
     exit 1
   fi
+  prepare_corpus
   if [[ ! -d "$pack_root/ask_hormozi" ]] || \
     { [[ ! -d "$corpus_root/segments" ]] && \
       [[ ! -d "$corpus_root/episodes" ]]; }; then

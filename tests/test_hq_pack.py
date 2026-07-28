@@ -16,7 +16,7 @@ class HqPackTests(unittest.TestCase):
         manifest = MANIFEST_PATH.read_text(encoding="utf-8")
 
         self.assertIn("name: hq-pack-ask-hormozi", manifest)
-        self.assertIn("version: 0.2.1", manifest)
+        self.assertIn("version: 0.2.2", manifest)
         self.assertIn("hqCore: '>=12.0.0'", manifest)
         self.assertIn("    - ask-hormozi", manifest)
         self.assertIn("    - hq-ask-hormozi", manifest)
@@ -123,6 +123,58 @@ class HqPackTests(unittest.TestCase):
             calls = log_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(len(calls), 1)
             self.assertIn("-m ask_hormozi search offers", calls[0])
+
+    def test_wrapper_unpacks_marketplace_corpus_before_indexing(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            temp_root = Path(directory)
+            pack_root = temp_root / "pack"
+            (pack_root / "ask_hormozi").mkdir(parents=True)
+            corpus_root = pack_root / "corpus"
+            corpus_root.mkdir()
+            (corpus_root / "segments.tar.xz").touch()
+            bin_dir = temp_root / "bin"
+            bin_dir.mkdir()
+            log_path = temp_root / "runtime.log"
+            self._write_executable(
+                bin_dir / "qmd",
+                "#!/bin/sh\n"
+                "if [ \"$1\" = collection ] && [ \"$2\" = list ]; then\n"
+                "  printf 'Collections:\\n'\n"
+                "fi\n",
+            )
+            self._write_executable(
+                bin_dir / "tar",
+                "#!/bin/sh\n"
+                "printf 'tar %s\\n' \"$*\" >> \"$ASK_HORMOZI_TEST_LOG\"\n"
+                "mkdir -p \"$4/segments\"\n",
+            )
+            self._write_executable(
+                bin_dir / "python3",
+                "#!/bin/sh\n"
+                "printf 'python %s\\n' \"$*\" >> \"$ASK_HORMOZI_TEST_LOG\"\n",
+            )
+            env = os.environ.copy()
+            env.update(
+                {
+                    "ASK_HORMOZI_PACK_ROOT": str(pack_root),
+                    "ASK_HORMOZI_TEST_LOG": str(log_path),
+                    "PATH": f"{bin_dir}:{env['PATH']}",
+                }
+            )
+
+            subprocess.run(
+                [str(WRAPPER_PATH), "setup"],
+                check=True,
+                env=env,
+                capture_output=True,
+                text=True,
+            )
+
+            calls = log_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(len(calls), 2)
+            self.assertIn("tar -xJf", calls[0])
+            self.assertIn("segments.tar.xz", calls[0])
+            self.assertIn("python -m ask_hormozi index", calls[1])
 
     @staticmethod
     def _write_executable(path: Path, content: str) -> None:

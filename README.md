@@ -23,15 +23,24 @@ and 9,330 timestamped segments.
 
 ## Install as an HQ pack
 
-Install the corpus, runtime, and `/ask-hormozi` skill straight into HQ:
+Install from the HQ marketplace:
+
+```bash
+hq install marketplace:ask-hormozi
+bash core/scripts/hq-ask-hormozi setup
+```
+
+Or install the full source package directly from GitHub:
 
 ```bash
 hq install https://github.com/poseljacob/ask-hormozi
 bash core/scripts/hq-ask-hormozi setup
 ```
 
-The second command creates the local QMD index from the Markdown already in the
-pack. It does not download video, audio, captions, or transcripts.
+The second command prepares the Markdown already bundled in the pack and creates
+the local QMD index. Marketplace installs unpack a compressed copy of the same
+timestamped Markdown locally to stay within the marketplace artifact limit.
+Neither path downloads video, audio, captions, or transcripts during setup.
 
 Start a fresh Codex or Claude Code session from HQ, invoke `/ask-hormozi`, and
 ask a normal question:
