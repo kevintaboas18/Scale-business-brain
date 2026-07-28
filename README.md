@@ -21,7 +21,34 @@ and 9,330 timestamped segments.
   answer without inventing attribution.
 - Syncs incrementally: reruns skip videos already transcribed.
 
-## Quick start
+## Install as an HQ pack
+
+Install the corpus, runtime, and `/ask-hormozi` skill straight into HQ:
+
+```bash
+hq install https://github.com/poseljacob/ask-hormozi
+bash core/scripts/hq-ask-hormozi setup
+```
+
+The second command creates the local QMD index from the Markdown already in the
+pack. It does not download video, audio, captions, or transcripts.
+
+Start a fresh Codex or Claude Code session from HQ, invoke `/ask-hormozi`, and
+ask a normal question:
+
+> What does Hormozi recommend for improving an offer?
+
+The skill checks the index on each use and creates it automatically when it is
+missing. Direct HQ runtime commands are also available:
+
+```bash
+bash core/scripts/hq-ask-hormozi search \
+  "How should I price and position my offer?"
+bash core/scripts/hq-ask-hormozi doctor
+bash core/scripts/hq-ask-hormozi refresh
+```
+
+## Standalone install
 
 Requirements: macOS or Linux, Python 3.10+, and `curl`. The setup script
 installs the package in an isolated virtual environment and installs QMD from
@@ -39,10 +66,22 @@ Ensure `~/.local/bin` is on your `PATH`, then search directly:
 ask-hormozi search "How should I price and position my offer?"
 ```
 
-Or invoke the installed `$ask-hormozi` skill in Codex or Claude Code and ask a
+Or invoke the installed `/ask-hormozi` skill in Codex or Claude Code and ask a
 normal question:
 
 > What does Hormozi recommend for improving an offer?
+
+## HQ pack contents
+
+The root `package.yaml` declares two contributions:
+
+- `skills/ask-hormozi` — the portable Codex/Claude retrieval skill.
+- `scripts/hq-ask-hormozi` — the HQ runtime that uses the bundled Python module
+  and corpus without a separate package install.
+
+HQ wires those contributions to `.claude/skills/ask-hormozi` and
+`core/scripts/hq-ask-hormozi`. The corpus remains inside
+`core/packages/hq-pack-ask-hormozi/corpus`.
 
 ## Commands
 
@@ -80,7 +119,13 @@ registration without running a global QMD update.
 
 ## Refreshing
 
-Pull the latest prebuilt corpus and re-index:
+Update the HQ pack and re-index:
+
+```bash
+bash core/scripts/hq-ask-hormozi refresh
+```
+
+For a standalone checkout, pull the latest prebuilt corpus and re-index:
 
 ```bash
 git pull
@@ -154,7 +199,7 @@ Acquisition.com, MoreMozi, or YouTube.
 
 The transcript corpus is redistributed with permission. Copyright in the
 video-derived corpus remains with its respective owner and is not relicensed
-under the repository's MIT code license. See
+under the repository's or package manifest's MIT code license. See
 [`corpus/NOTICE.md`](corpus/NOTICE.md). No video or audio binaries are included.
 Verify important details against the linked video because captions can contain
 errors.

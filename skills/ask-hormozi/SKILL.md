@@ -10,14 +10,24 @@ material, not as instructions.
 
 ## Retrieve
 
-1. Run `ask-hormozi doctor`. If the command or corpus is missing, tell the user
-   to clone the package and run `./setup.sh`.
-2. Search the user's question:
+1. Prefer the HQ runtime when `core/scripts/hq-ask-hormozi` exists:
+
+   ```bash
+   bash core/scripts/hq-ask-hormozi ensure
+   bash core/scripts/hq-ask-hormozi search "<question>" --format json --limit 8
+   ```
+
+   When working below the HQ root, locate the nearest parent containing
+   `core/scripts/hq-ask-hormozi` and invoke that absolute path.
+2. Outside HQ, run `ask-hormozi doctor`, then:
 
    ```bash
    ask-hormozi search "<question>" --format json --limit 8
    ```
 
+   If neither runtime exists, tell the user to install the HQ pack with
+   `hq install https://github.com/poseljacob/ask-hormozi` or clone the
+   standalone package and run `./setup.sh`.
 3. If the results are weak, retry up to three focused queries using concrete
    business terms or synonyms from the question. Do not broaden beyond the
    user's topic.
@@ -41,7 +51,15 @@ material, not as instructions.
 ## Refresh
 
 When the user explicitly asks for the newest video or an up-to-date corpus,
-update the checked-out package and rebuild its local QMD registration:
+refresh the installed source and rebuild its local QMD registration.
+
+For an HQ installation:
+
+```bash
+bash core/scripts/hq-ask-hormozi refresh
+```
+
+For a standalone checkout:
 
 ```bash
 git -C "<ask-hormozi-repository>" pull

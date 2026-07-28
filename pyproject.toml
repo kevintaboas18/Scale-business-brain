@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ask-hormozi"
-version = "0.1.0"
+version = "0.2.0"
 description = "Search MoreMozi videos locally with cited transcript timestamps."
 readme = "README.md"
 requires-python = ">=3.10"
