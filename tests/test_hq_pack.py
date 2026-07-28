@@ -16,7 +16,7 @@ class HqPackTests(unittest.TestCase):
         manifest = MANIFEST_PATH.read_text(encoding="utf-8")
 
         self.assertIn("name: hq-pack-ask-hormozi", manifest)
-        self.assertIn("version: 0.2.0", manifest)
+        self.assertIn("version: 0.2.1", manifest)
         self.assertIn("hqCore: '>=12.0.0'", manifest)
         self.assertIn("    - ask-hormozi", manifest)
         self.assertIn("    - hq-ask-hormozi", manifest)
