@@ -213,6 +213,26 @@ sin cookies ni cuenta de YouTube.
 
 - `python3 -m unittest discover -s tests` → **26 tests OK**.
 - Corpus íntegro: 2.039 episodios / 2.039 transcripciones / 9.330 segmentos.
-- No se pudo probar la búsqueda de extremo a extremo aquí porque el sandbox
-  bloquea la descarga del instalador de QMD (`sh.qntx.fun` devuelve 403).
-  Ejecuta `./setup.sh` en tu máquina para completarlo.
+- `./setup.sh` → CLI instalado, corpus configurado e indexado en QMD.
+- `ask-hormozi doctor` → 2.039 episodios, 2.039 transcripciones, 9.330 segmentos.
+- `ask-hormozi search "How should I price and position my offer?"` → devuelve
+  pasajes reales con sus enlaces `&t=…s`. **Funciona de extremo a extremo.**
+
+### Nota sobre la versión de QMD
+
+`setup.sh` instala QMD desde `https://sh.qntx.fun/qmd`, que entrega una versión
+compatible con este paquete. Si compilas QMD desde el `main` de
+[`qntx-labs/qmd`](https://github.com/qntx-labs/qmd) te encontrarás con que la
+CLI ha cambiado y **no** es compatible con `ask-hormozi` v0.2.2:
+
+| Lo que espera `ask-hormozi` | QMD 0.3.x | QMD `main` (0.5.0) |
+|---|---|---|
+| `collection add --mask` | `--mask` ✅ | renombrado a `--pattern` ❌ |
+| `search --collection` | `-c/--collection` ✅ | eliminado ❌ |
+| `search --format json` | `--format` ✅ | renombrado a `--json` ❌ |
+| `search --line-numbers` | ✅ | eliminado ❌ |
+| `search` = BM25 | BM25 ✅ | híbrido FTS+vector, BM25 pasó a `qmd fts` ❌ |
+
+Es decir, **`ask-hormozi` v0.2.2 está atado a la línea QMD 0.3.x**. Si el
+instalador oficial pasa a servir la 0.5.x, el paquete se romperá hasta que
+upstream lo actualice. Verificado aquí compilando la etiqueta `v0.3.2`.
