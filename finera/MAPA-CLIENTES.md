@@ -161,3 +161,53 @@ Para pegar donde las veas:
 | **I2, I3, I4** | Producto documentado **+** historial de operación sin incidentes |
 
 **La única fila sin condición es E1.** Esa es la que te toca esta semana.
+
+---
+
+## Los tres ejes — *no "sponsor o institución"*
+
+**Pregunta: ¿todos los clientes son sponsor o institución? Falso.** De los 17 clientes del mapa
+(los 18 menos E4, marcado a evitar; N1–N4 no son clientes), **11 no son ninguno de los dos.**
+
+| Grupo | IDs | Cuántos | ¿Sponsor o institución? |
+|---|---|---|---|
+| Sponsors | E1 · E2 · E3 · E5 · E8 | 5 | ✅ Sponsor |
+| Instituciones | E7 | 1 | ✅ Institución |
+| **PYME emisora de deuda** | E6 | 1 | ❌ Ni uno ni otro |
+| **Inversionistas (LPs)** | C1 · C2 · C3 · C4 · C5 · C6 | 6 | ❌ Son el capital, no el emisor |
+| **Compradores de infraestructura** | I1 · I2 · I3 · I4 | 4 | ❌ Son proveedores que te compran a ti |
+| | | **17** | **6 sí · 11 no** |
+
+**Verdadero solo para la fase 1** — y ahí es todavía más estrecho: en fase 1 tu cliente es el
+sponsor, **y tampoco la institución** (E7 es fase 3).
+
+### El eje correcto: posición en la vida del activo
+
+Lo que une a los 17 no es el tipo de empresa. Es **dónde está cada uno respecto del activo
+tokenizado:**
+
+| Eje | Quién | IDs | Qué hace con el activo |
+|---|---|---|---|
+| **1 · Lo crea** | Emisores | E1–E8 | Estructura y emite |
+| **2 · Lo tiene** | Capital | C1–C6 | Lo posee, lo reporta, lo vende |
+| **3 · Lo administra para otro** | Infraestructura | I1–I4 | Opera el ciclo bajo su propia marca |
+
+Esto explica tres cosas que la clasificación por tipo de empresa no explica:
+
+1. **Por qué todos salen de E1.** El activo tiene que existir antes de que haya quien lo tenga o
+   quien lo administre. El grafo de desbloqueo es una consecuencia del eje, no una regla aparte.
+2. **Por qué las fases caen donde caen.** Cada cliente aparece en un punto distinto de la vida del
+   activo, y la vida del activo tiene un orden.
+3. **Por qué I1 no es un nodo.** Un despacho que te *refiere* está en el eje de distribución; un
+   despacho que te *compra la infraestructura* está en el eje 3. Misma empresa, posición distinta.
+
+### Y una nota sobre tu tercera propuesta de valor
+
+Tu frase original —*«Del activo al inversionista: todo el ciclo de vida en una sola
+plataforma»*— la critiqué como descripción de arquitectura, y como **mensaje de venta** sigue
+siendo mala: a ningún sponsor le duele no tener un ciclo de vida completo.
+
+Pero como **modelo interno para organizar a tus clientes, es exactamente el eje correcto.** Es la
+distinción entre un buen modelo mental y un buen pitch: el mismo contenido sirve para pensar y no
+para vender. Guárdala para el canvas y para explicar la empresa a un inversionista; no la uses
+para abrir una conversación con un sponsor.
