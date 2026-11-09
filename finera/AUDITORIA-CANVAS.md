@@ -43,15 +43,30 @@ que se me pasó:
 | **Sponsors** | Cliente. Tiene el dolor, paga, es localizable | **1 — Clientes** ✅ |
 | **Instituciones** | Cliente posible, ciclo de 18 meses | **1 — Clientes**, año 3+ |
 | **Distribuidores** (despachos, CPAs) | **No te pagan. Te traen clientes.** | **3 — Canales** + **8 — Socios** |
-| **Inversores / LPs** | **No te pagan. Son la demanda que el sponsor trae.** | **6 — Recursos** + motor ②c |
+| **Inversores / LPs** | ⚠️ **Corregido** — ver nota abajo | **6 — Recursos** hoy; **1 — Clientes** en fase 2 |
+
+> ### ⚠️ Corrección (2026-11-09)
+>
+> La versión original de esta tabla decía que los LPs **"no te pagan"**, en absoluto. **Eso era
+> incorrecto y la corrijo.** El LP sí puede ser un cliente que paga — hay al menos una vía fuerte
+> (liquidez secundaria) y dos plausibles (custodia y acceso) — y el propio corpus es explícito en
+> que en un marketplace se le puede cobrar a los dos lados. Lo que sostengo, con la secuencia
+> fundamentada, es más estrecho: **el LP no es tu *primer* cliente y en el año 1 no paga.**
+>
+> El análisis completo está en **[`CLIENTE-LP.md`](./CLIENTE-LP.md)**: las cuatro vías de
+> monetización ordenadas por viabilidad, el criterio de "quién es permanente" que en realidad
+> favorece al LP, la secuencia SaaS→marketplace, y las preguntas regulatorias que decide tu
+> abogado y no yo.
 
 Poner un canal en la casilla de clientes no es un detalle de clasificación. **Hace que el canvas
-te mienta sobre el tamaño de tu mercado.** Crees que tienes cuatro mercados; tienes uno, con dos
-grupos de intermediarios alrededor. Y como están en la casilla 1, les estás diseñando propuestas
-de valor como si fueran a pagar — esfuerzo gastado en una cuenta que nunca va a emitir una factura.
+te mienta sobre el tamaño de tu mercado.** Esto aplica de lleno a **Distribuidores**: crees que
+tienes cuatro mercados y en el año 1 tienes uno. Y como están en la casilla 1, les estás diseñando
+propuestas de valor como si fueran a pagar — esfuerzo gastado en una cuenta que no va a facturar.
 
-> Prueba de una línea para la casilla 1: **¿esta persona firma el cheque?** Si no, no va aquí.
-> Si te trae a quien firma, va a canales. Si te deja operar legalmente, va a socios.
+> Prueba de una línea para la casilla 1: **¿esta persona firma el cheque, en el modelo de este
+> año?** Si no, no va aquí todavía. Si te trae a quien firma, va a canales. Si te deja operar
+> legalmente, va a socios. Un cliente de fase 2 va a la casilla 1 de un **canvas de expansión
+> fechado**, no al canvas primario.
 
 ### Por qué estrechar no es un sacrificio en tu caso: arregla tu palanca más débil
 
