@@ -9,7 +9,7 @@ Léelos en este orden:
 |---|---|---|
 | 1 | **[AUDITORIA-CANVAS.md](./AUDITORIA-CANVAS.md)** | Qué está mal en las casillas 1, 3 y 4 del business model canvas, y el ejercicio de la restricción para encontrar tu primera acción |
 | 2 | **[MOTORES.md](./MOTORES.md)** | Los dos motores de ingreso (recurrencia y referido), el bucle de los LPs, y la casilla 8 ordenada por grupos |
-| 3 | **[CLIENTE-LP.md](./CLIENTE-LP.md)** | ¿El inversionista puede ser cliente? (I), diseño de la membresía (II), y las cuatro estructuras de cobro con la comisión descartada para el año 1 (III) |
+| 3 | **[CLIENTE-LP.md](./CLIENTE-LP.md)** | ¿El inversionista puede ser cliente? (I), diseño de la membresía (II), las cuatro estructuras de cobro (III), y la comisión en el secundario con lo que hay que decidir en el deal #1 (IV) |
 | 4 | **[COLABORACIONES.md](./COLABORACIONES.md)** | Con qué despachos y CPAs colaborar, cómo elegirlos, y el guion de la primera reunión |
 
 ## Las decisiones ya tomadas
@@ -23,7 +23,9 @@ Léelos en este orden:
 | Acceso a deals para inversionistas | **Gratis siempre.** Es el embudo, no un producto |
 | Membresía de LP | Por administrar lo que ya tiene adentro, no por acceso a lo que no tiene |
 | Cómo se monetiza el lado LP en año 1 | **El emisor paga la capa del inversionista.** Plano por deal, nunca por cabeza. El LP paga $0 |
-| Comisión por transacción al LP | **No en año 1.** Fase 2, solo en liquidez secundaria, y después del abogado |
+| Comisión por transacción al LP | **No en la primaria.** Solo en liquidez secundaria, fase 2, y después del abogado |
+| Estructura del cobro en el secundario | **Tarifa plana por transferencia al vendedor**, no % del valor. Transferencias uno a uno, no operar un mercado |
+| El secundario en el año 1 | No es ingreso: es **la función que vende el primario**. Constrúyelo temprano, monetízalo tarde |
 
 ## Lo que sigue abierto
 
@@ -32,7 +34,10 @@ Léelos en este orden:
 2. **El ejercicio de la restricción** (`AUDITORIA-CANVAS.md` §final): completar la frase
    *"cerraría mi primer sponsor esta semana, pero no puedo porque ___"*.
 3. **Casillas 5, 7 y 9 del canvas** sin llenar. Orden de dependencia: 8 → 7 → 6 → 9.
-4. **Las preguntas para el abogado de valores** están listadas en `CLIENTE-LP.md` §6 y §11.
+4. **Las preguntas para el abogado de valores** están en `CLIENTE-LP.md` §31 (las cuatro afinadas
+   para el secundario; reemplazan §6 y §11).
+5. 🔴 **Con fecha: antes de cerrar el deal #1**, preguntar si los documentos de suscripción
+   permiten transferencias (`CLIENTE-LP.md` §26). Sin eso, la fase 2 arranca sin inventario.
 
 ## Nota sobre las citas
 

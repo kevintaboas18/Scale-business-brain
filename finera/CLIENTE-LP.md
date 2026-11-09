@@ -628,3 +628,175 @@ tu propio criterio aprueba.
 | *"¿Una comisión por cada transacción que realizan?"* | Es la de mayor carga regulatoria (§17), la de menos eventos de cobro (§18), **y es el mismo peaje que tú ya habías rechazado** (§19) |
 | ¿Entonces qué? | **Que el emisor pague la capa del inversionista.** El LP paga $0, tú monetizas igual, cero pregunta nueva. Plano por deal, **nunca por cabeza** |
 | ¿Y la comisión? | Fase 2, solo en liquidez secundaria, y después de tu abogado — no antes |
+
+---
+---
+
+# Parte IV — Comisión solo en el secundario: lo que cambia
+
+*(Aclaración: la comisión no sería por comprar en la emisión primaria, sino por vender en el
+mercado secundario.)*
+
+**Es la versión correcta.** Pasa tu propio filtro: el LP está *recibiendo* efectivo, así que el
+cobro sale de un flujo que ya existe y no del bolsillo antes de que el activo rinda nada. Esa es
+exactamente la distinción de §24.
+
+Pero cambian tres cosas, y **la primera tiene fecha límite ahora, no en fase 2.**
+
+---
+
+## 26. ⚠️ Lo urgente: el secundario se decide en los documentos del deal #1
+
+Esto es lo más accionable de todo este documento y casi nadie lo ve a tiempo.
+
+Las posiciones en colocaciones privadas **normalmente no son libremente transferibles.** Los
+documentos de suscripción suelen traer restricciones: consentimiento del emisor, derecho de
+primera opción a favor del sponsor, períodos mínimos de tenencia, o prohibición directa.
+
+**Si los documentos del deal #1 no permiten la transferencia, esa posición no tiene secundario.
+Nunca. No es algo que puedas añadir después.**
+
+### La trampa con su calendario
+
+```
+Haces 10 deals en los años 1–2 sin cuidar esto
+                    ↓
+Año 3: quieres lanzar el secundario
+                    ↓
+Las 10 emisiones son intransferibles
+                    ↓
+Fase 2 arranca con inventario = 0
+```
+
+**La decisión es hoy, para un ingreso que llega en el año 3.** Y no es una decisión tuya sola: va
+en los documentos que redacta el abogado del sponsor, en la mesa de originación del deal #1.
+
+**Acción concreta, en tu primer deal:** que la pregunta *"¿los documentos permiten transferencias,
+y bajo qué condiciones?"* esté en tu lista antes de firmar. No para imponer nada — el sponsor y su
+abogado deciden — sino para saber qué estás acumulando. Un deal cerrado sin esa pregunta es
+inventario que no sabes si existe.
+
+---
+
+## 27. La distinción que decide la carga regulatoria no es el evento — es la estructura del cobro
+
+Moverte al secundario **no reduce** la pregunta de §17 por sí solo. Lo que la reduce es *cómo*
+cobras y *qué* haces. Son dos ejes distintos:
+
+### Eje A — qué haces
+
+| | Qué es | Carga |
+|---|---|---|
+| **Procesar una transferencia** | El LP encuentra su propio comprador. Tú verificas elegibilidad, procesas el papeleo y actualizas el registro | 🟢 Más baja. **Es función de agente de transferencia** |
+| **Operar un mercado** | Emparejas compradores y vendedores, muestras precios, ejecutas | 🔴 Más alta. Territorio de intermediario registrado y posiblemente sistema de negociación |
+
+### Eje B — cómo cobras
+
+| | Qué es | Carga |
+|---|---|---|
+| **Tarifa plana por transferencia** | Cobro administrativo por procesar | 🟢 Más baja |
+| **Comisión = % del valor** | Compensación basada en transacciones | 🔴 La de §17 |
+
+**Mismo evento, cuatro combinaciones, perfiles muy distintos.** La esquina verde —procesar
+transferencias uno a uno con tarifa plana— es un negocio muy diferente de la esquina roja —operar
+un mercado con comisión— aunque las dos describan "cobrar cuando el LP vende".
+
+### Y la plana probablemente te conviene más de todos modos
+
+| Posición de $100,000 | Cobro |
+|---|---|
+| Comisión 1% | $1,000 |
+| Tarifa plana por transferencia | $750 – $1,500, **predecible** |
+
+Y hay una razón de negocio: **la comisión castiga al LP grande**, que es precisamente tu mejor nodo
+del motor ②c. Un LP con $500,000 pagaría $5,000 por salirse. Ese es el LP que no quieres molestar.
+
+**Y quién paga: el vendedor, de los proceeds.** Si se lo cobras al comprador, le pusiste peaje a
+la entrada otra vez — el error de §19, por la puerta de atrás.
+
+---
+
+## 28. El reencuadre que vale más que la comisión
+
+Esto es lo más importante de la Parte IV, y resuelve la tensión entre "constrúyelo ya" y "no da
+dinero hasta el año 3".
+
+**La objeción más dura que recibe tu sponsor de sus propios LPs es: *"mi dinero queda amarrado 7
+años".*** Es lo que alarga su ronda de 6 semanas a 14.
+
+Si el sponsor puede decir *"y tus LPs tienen una vía de salida antes del año 7"*, eso no es una
+característica técnica: **es reversión de riesgo, y es lo que le permite levantar más rápido.**
+Que es literalmente lo que te está pagando.
+
+> *"Tienes riesgo, tienes facilidad y tienes velocidad. Esos son los elementos del valor."*
+> — [*How to Know When to Switch Businesses* — 12:00](https://www.youtube.com/watch?v=g_xQdzuwqC0&t=720s)
+
+El secundario ataca **el riesgo del lado del LP**, que es el cuello de botella de la ronda del
+sponsor. Y en tu ecuación de valor, baja el *esfuerzo y sacrificio* del LP y sube la *probabilidad
+percibida* de que pueda salir si lo necesita.
+
+### La consecuencia práctica
+
+| | |
+|---|---|
+| **Constrúyelo temprano** | Porque **vende deals** — y vender deals es lo que el sponsor te paga |
+| **Monetízalo tarde** | Porque una comisión necesita densidad (§18, §4) |
+
+**El secundario se gana su lugar en el año 1 sin que ocurra una sola transacción**, solo por
+existir en el pitch del sponsor. La comisión es un subproducto que llega después. Si lo construyes
+buscando la comisión, lo vas a juzgar por un ingreso que no puede existir todavía y lo vas a matar
+antes de que haga su trabajo real.
+
+---
+
+## 29. Lo que no debes hacer: poner el precio
+
+Si Finera valúa las posiciones o fija los precios, es otro negocio y mucho más pesado:
+responsabilidad sobre la valuación, conflicto con el sponsor que reporta su propio NAV, y una
+pregunta regulatoria distinta.
+
+**Que comprador y vendedor negocien. Finera es la tubería.** Al menos al principio, y esa
+restricción es una fortaleza, no una limitación: es lo que te deja en la esquina verde de §27.
+
+---
+
+## 30. La secuencia completa
+
+| Momento | Qué haces | Qué cobras |
+|---|---|---|
+| **Deal #1 — ahora** | Preguntar si los documentos permiten transferencias y bajo qué condiciones | **$0.** Es diseño, no producto |
+| **Deals 1–10** | Usar "vía de liquidez para tus LPs" en el pitch al sponsor | Nada directo. **Acorta la ronda = es tu oferta** |
+| **~Deal 10, 300+ LPs** | Habilitar transferencias **uno a uno**, no un mercado | **Tarifa plana**, al vendedor, de los proceeds |
+| **Fase 2 con densidad** | Evaluar un mercado real | Comisión %, **después** del abogado y con el registro que corresponda |
+
+---
+
+## 31. Las cuatro preguntas para tu abogado de valores, afinadas
+
+Estas reemplazan las de §11 para este diseño específico:
+
+1. **¿Los documentos de suscripción del deal #1 permiten transferencias? ¿Con qué condiciones —
+   consentimiento del emisor, derecho de primera opción, períodos de tenencia?**
+   *(Es la de §26. Tiene fecha.)*
+2. **¿Procesar una transferencia uno a uno con una tarifa plana administrativa es distinto,
+   regulatoriamente, de operar un mercado y cobrar comisión?**
+   *(Es el eje A × eje B de §27.)*
+3. **¿Dónde está la línea? ¿A partir de qué punto —volumen, emparejar compradores, mostrar
+   precios— deja de ser procesamiento y pasa a ser operar un mercado?**
+   *(La más importante de las cuatro: determina toda tu arquitectura de fase 2.)*
+4. **¿Quién puede cobrar esa tarifa y a quién: vendedor, comprador o emisor?**
+
+La tercera es la que define si tu fase 2 es un ajuste de producto o una actividad que hay que
+registrar. Llega a esa reunión con las cuatro escritas.
+
+---
+
+## 32. Resumen de la Parte IV
+
+| | |
+|---|---|
+| *"Comisión no en la primaria, sí en el secundario"* | ✅ **Correcto.** Es la única posición donde el cobro sale de un flujo que el LP recibe |
+| Lo que cambia #1 | ⚠️ **Se decide en los documentos del deal #1.** Sin eso, fase 2 arranca con inventario cero |
+| Lo que cambia #2 | La carga regulatoria la define **la estructura del cobro y qué haces**, no el momento. Tarifa plana + transferencias uno a uno ≠ comisión + operar mercado |
+| Lo que cambia #3 | **El secundario no es un ingreso, es la función que vende el primario.** Constrúyelo temprano, monetízalo tarde |
+| Lo que no hacer | Fijar precios o valuar. Sé la tubería |
