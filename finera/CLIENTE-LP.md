@@ -424,3 +424,207 @@ fase 2, y lo acumulas mientras el sponsor paga la cuenta.
 arriba del sponsor. **Lo que cambia con tu objeción:** cuando pague, no paga por entrar — **paga
 por administrar lo que ya tiene adentro.** Eso es consumible, se cobra de un flujo existente, y la
 pieza de consolidación multi-sponsor lo convierte en el único cliente que te trae más clientes.
+
+---
+---
+
+# Parte III — "¿Solo pueden ser clientes si les cobro comisión?"
+
+*(Pregunta: ¿es la comisión la única vía? Aclaración: una comisión por cada transacción que el
+inversionista realiza.)*
+
+**No. Hay cuatro estructuras de cobro distintas, y la comisión por transacción es la peor de las
+cuatro para Finera en el año 1 — por tres razones independientes.**
+
+---
+
+## 17. Lo primero: "comisión por transacción" es la frase que activa el registro
+
+De todo lo discutido en este documento, esta es **la única estructura que tiene nombre propio.**
+
+La compensación basada en transacciones por facilitar operaciones con valores — es decir, cobrar
+un porcentaje cada vez que alguien compra o vende un valor — es el factor central del análisis de
+si alguien está actuando como intermediario registrable. No es un borde gris: es el centro del
+análisis.
+
+**Esto no te lo puedo responder yo, y es importante que no lo tomes de mí.** Lo que sí te puedo
+decir con claridad:
+
+| | |
+|---|---|
+| Suscripción por software de administración | Pregunta chica. Es software |
+| Cuota pagada por el emisor | Pregunta chica. Estructura corriente en la industria |
+| Puntos base por custodia | Pregunta mediana. Régimen de custodia |
+| **Comisión por transacción** | **Pregunta grande, con nombre.** Es el factor central del análisis de intermediación |
+
+Si vas a explorarla, la conversación con tu abogado de valores va **antes** de construirla, no
+después. Es la diferencia entre un producto que hay que ajustar y una actividad que hay que
+registrar.
+
+---
+
+## 18. Antes del abogado, la aritmética: ¿cuántas veces transa un LP?
+
+Esta objeción no necesita a nadie más, y por sí sola descarta la comisión como motor del año 1.
+
+| Evento | ¿Es transacción del LP? | Frecuencia |
+|---|---|---|
+| Suscribirse a un deal | Sí | **1 vez cada 1–3 años** |
+| Recibir una distribución | No. No la inicia él | Trimestral, pero no es su transacción |
+| Vender en secundario | Sí | **Tal vez 1 vez en 7 años, o nunca** |
+| Ver su posición, bajar su K-1 | No | Continuo |
+
+**El LP casi nunca transa.** Su característica definitoria es que *inmoviliza* capital durante años.
+
+| Estructura | Eventos de cobro en 7 años |
+|---|---|
+| Suscripción mensual modesta | **~84** |
+| Comisión por transacción | **1, tal vez 2** |
+
+Una comisión sobre un evento que ocurre una vez cada varios años no es una fuente de ingreso: es
+un billete de lotería. Y es el mismo problema de *"4% de cero"* de §4, agravado — aquí es **4% de
+casi nunca.**
+
+---
+
+## 19. Y tu propia objeción la descarta
+
+Tú escribiste, correctamente:
+
+> *"eso es quitarle el acceso y eso sería peligroso, porque nadie quiere empezar a pagar para
+> invertir poco."*
+
+**Una comisión por transacción es exactamente eso.** Si cobras 1% sobre una suscripción de $25,000,
+son $250 **en el momento exacto en que está decidiendo si invierte.** El peaje que rechazaste con
+razón no desapareció: se movió del portón a la caja.
+
+| | Cuota de acceso | Comisión por transacción |
+|---|---|---|
+| ¿Cuándo paga? | Antes de ver el deal | **En el momento de invertir** |
+| ¿Ya rindió algo el activo? | No | **No** |
+| ¿Castiga al ticket chico? | Sí | **Sí — proporcionalmente igual** |
+| ¿Es el peaje que rechazaste? | Sí | **Sí** |
+
+Tu intuición ya había resuelto esto. La comisión por transacción contradice tu propio criterio.
+
+---
+
+## 20. Y te pone del lado equivocado de tu propio motor
+
+Cada LP que entra a un deal tuyo es, al mismo tiempo:
+
+1. Inventario de la fase 2 (§4)
+2. Un nodo del motor ②c que puede traerte sponsors (`MOTORES.md` §1)
+3. Un futuro miembro de la membresía de administración (§13)
+
+Las tres cosas requieren **que entre el mayor número posible, con la menor fricción posible.**
+
+Una comisión en el momento de suscribir es **fricción en el torniquete de la cosa que más te
+interesa llenar.** Estarías cobrando peaje en la entrada del activo que quieres acumular.
+
+---
+
+## 21. Las cuatro estructuras, ordenadas para ti
+
+| # | Estructura | Quién paga | Predecible | Carga regulatoria | ¿Castiga el ticket chico? | Veredicto año 1 |
+|---|---|---|---|---|---|---|
+| **1** | **Cuota por la capa del inversionista** | **El emisor** | ✅ Sí | 🟢 Baja | **No — el LP paga $0** | ⭐ **Mejor** |
+| **2** | Suscripción de administración | El LP ya invertido | ✅ Sí | 🟢 Baja | No — sale de distribuciones | ✅ Buena, fase 1 tardía |
+| **3** | Puntos base por custodia | El LP | 🟡 Semi | 🟡 Media | Algo | 🕐 Fase 2 |
+| **4** | **Comisión por transacción** | El LP | ❌ No | 🔴 **Alta, con nombre** | **Sí** | ❌ **No en año 1** |
+
+### La que no habías considerado: **que el emisor pague la capa del inversionista**
+
+Es la que disuelve el problema entero.
+
+Finera le cobra al **sponsor** por la experiencia del inversionista — el portal, el reporting, los
+documentos fiscales de sus LPs. **El LP no paga nada, recibe todo.** Y tú monetizas el lado del
+inversionista igual, solo que facturado a quien ya te paga.
+
+Por qué funciona:
+- **Es estructura corriente.** Los agentes de transferencia y administradores de fondos cobran al
+  emisor por inversionista o por posición desde siempre. No estás inventando nada raro.
+- **El sponsor lo quiere.** Sus LPs son su capital repetido; una buena experiencia del LP es su
+  interés directo, no un favor que le pides.
+- **Cero pregunta nueva de intermediación.** El dinero viene del emisor, que ya es tu cliente.
+- **Y resuelve tu objeción sin rodeos:** nadie paga para invertir poco, porque **nadie paga.**
+
+⚠️ **La trampa, y es importante:** si lo cobras **por inversionista**, le creas al sponsor el
+incentivo de traer *menos* LPs para pagarte menos — justo contra tu estrategia de acumulación.
+Cóbralo **plano por deal**, o métele la capa del inversionista dentro del % de AUM que ya cobras.
+Nunca por cabeza.
+
+---
+
+## 22. La conclusión que incomoda
+
+Poniendo juntas §4, §20 y §21: **puede que lo correcto en el año 1 sea no monetizar al LP en
+absoluto, a propósito.**
+
+La base de LPs vale más como **inventario** que como ingreso por cuotas:
+
+| Como ingreso de cuotas, año 1 | Como inventario, fase 2 |
+|---|---|
+| 20 LPs × $200 = **$4,000/año** | 400 LPs = el mercado secundario existe, la consolidación multi-sponsor funciona, el motor ②c trae sponsors |
+
+Los $4,000 no mueven nada y te cuestan fricción en el torniquete. **Trata la capa del inversionista
+como gasto de marketing de la fase 2**, igual que el sobre-servicio deliberado del deal #1
+(`MOTORES.md` §4). Es la misma lógica:
+
+> *"Si quedo a la par, en el peor de los casos, en la primera transacción, pero igual vuelven cada
+> año y compran otra propiedad, sigue siendo un activo que compone."*
+> — [*Helping a Tax Firm Get More Leads* — 03:00](https://www.youtube.com/watch?v=6NSu1htqWa8&t=180s)
+
+---
+
+## 23. El argumento honesto a favor del porcentaje
+
+Para no dejarlo manco — el porcentaje tiene **una** ventaja real, y el corpus la nombra:
+
+> *"Tu ROI tampoco es claro, porque tienes una tarifa plana para todos... Si tuvieras un porcentaje
+> podrías ver clarísimo: cada marca hace seis deals en promedio, me llevo este porcentaje, el deal
+> promedio es de tanto, y entonces tienes matemática alrededor. Pero por ahora estás en tarifa
+> plana y está bien. No me ofende."*
+> — [*Helping a $2M Coaching Biz Hit $20M* — 06:00](https://www.youtube.com/watch?v=MwU7mXoLfRM&t=360s)
+
+El porcentaje te da visibilidad de economía unitaria. Es cierto. Pero fíjate en el veredicto:
+*"está bien, no me ofende"* — la tarifa plana no es un error, es una decisión con un costo de
+información.
+
+Y el contraejemplo pesa más, porque es del mismo negocio que el tuyo:
+
+> *"Cobramos una tarifa plana por el servicio de $22,000, la mitad por adelantado y la mitad al
+> cerrar."* — *"¿Independiente del tamaño del deal?"* — *"Sí. Puede ser un deal de 800k o la compra
+> de una casa de 1.5 millones."*
+> — [*Our CAC Is $6,700 and We Don't Know What's Working* — 00:00](https://www.youtube.com/watch?v=15CxTygzVio&t=0s)
+
+**$15 millones de ingreso al 27% de margen, en asesoría inmobiliaria, con tarifa plana
+independiente del tamaño del deal.** Su línea basada en porcentaje es el 10% del ingreso. En un
+negocio de deals, plano no es la opción pobre.
+
+---
+
+## 24. Dónde sí tiene lugar la comisión
+
+No la descartes para siempre. Descártala **para el año 1**:
+
+| Condición | Por qué |
+|---|---|
+| Fase 2, con ~300–400 LPs en 10+ deals | Antes de eso es 4% de casi nunca |
+| Solo en **liquidez secundaria**, no en suscripción primaria | En el secundario el LP está *recibiendo* efectivo: el costo sale del flujo, no del bolsillo. Ahí sí pasa tu propio filtro |
+| Después de que tu abogado te diga qué registro requiere | §17. Esta conversación va antes de construir |
+
+**La diferencia es de qué lado del dinero está el cobro.** Comisión al suscribir = le cobras por
+entregar dinero. Comisión al vender en secundario = le cobras por recibirlo. La segunda es la que
+tu propio criterio aprueba.
+
+---
+
+## 25. Respuesta en una tabla
+
+| Tu pregunta | Respuesta |
+|---|---|
+| *"¿La única manera es cobrarle comisión?"* | **No.** Hay cuatro estructuras, y la comisión es la cuarta de cuatro para el año 1 |
+| *"¿Una comisión por cada transacción que realizan?"* | Es la de mayor carga regulatoria (§17), la de menos eventos de cobro (§18), **y es el mismo peaje que tú ya habías rechazado** (§19) |
+| ¿Entonces qué? | **Que el emisor pague la capa del inversionista.** El LP paga $0, tú monetizas igual, cero pregunta nueva. Plano por deal, **nunca por cabeza** |
+| ¿Y la comisión? | Fase 2, solo en liquidez secundaria, y después de tu abogado — no antes |

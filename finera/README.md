@@ -9,7 +9,7 @@ Léelos en este orden:
 |---|---|---|
 | 1 | **[AUDITORIA-CANVAS.md](./AUDITORIA-CANVAS.md)** | Qué está mal en las casillas 1, 3 y 4 del business model canvas, y el ejercicio de la restricción para encontrar tu primera acción |
 | 2 | **[MOTORES.md](./MOTORES.md)** | Los dos motores de ingreso (recurrencia y referido), el bucle de los LPs, y la casilla 8 ordenada por grupos |
-| 3 | **[CLIENTE-LP.md](./CLIENTE-LP.md)** | ¿El inversionista puede ser cliente? (Parte I) y el diseño correcto de la membresía (Parte II) |
+| 3 | **[CLIENTE-LP.md](./CLIENTE-LP.md)** | ¿El inversionista puede ser cliente? (I), diseño de la membresía (II), y las cuatro estructuras de cobro con la comisión descartada para el año 1 (III) |
 | 4 | **[COLABORACIONES.md](./COLABORACIONES.md)** | Con qué despachos y CPAs colaborar, cómo elegirlos, y el guion de la primera reunión |
 
 ## Las decisiones ya tomadas
@@ -22,6 +22,8 @@ Léelos en este orden:
 | LPs | Casilla 6 (recurso) en el canvas primario; casilla 1 en un canvas de expansión fase 2 |
 | Acceso a deals para inversionistas | **Gratis siempre.** Es el embudo, no un producto |
 | Membresía de LP | Por administrar lo que ya tiene adentro, no por acceso a lo que no tiene |
+| Cómo se monetiza el lado LP en año 1 | **El emisor paga la capa del inversionista.** Plano por deal, nunca por cabeza. El LP paga $0 |
+| Comisión por transacción al LP | **No en año 1.** Fase 2, solo en liquidez secundaria, y después del abogado |
 
 ## Lo que sigue abierto
 
