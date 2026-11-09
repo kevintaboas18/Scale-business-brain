@@ -197,3 +197,230 @@ LPs verificados en 10+ deals"*. Así no pierdes la visión y tampoco diluyes el 
 Lo que **sí** debes hacer ya, aunque el LP no pague todavía: el trabajo del motor ②c en
 [`MOTORES.md`](./MOTORES.md) §2. Toda la base de LPs que acumules ahora es el inventario del
 negocio de fase 2 — y la estás construyendo gratis mientras el sponsor paga la cuenta.
+
+---
+---
+
+# Parte II — La membresía: por qué "acceso prioritario" falla y qué sí funciona
+
+*(Añadido tras tu objeción: el LP no es cliente por acceso, pero sí podría serlo por membresía
+con prioridad. Tienes razón en la primera mitad. La segunda hay que rediseñarla.)*
+
+## 8. Lo que tienes bien, y es la distinción importante
+
+**Peaje ≠ upgrade.**
+
+| | Qué es | Efecto |
+|---|---|---|
+| **Cobrar por acceso** | Quitas algo que era gratis y lo vendes de vuelta | Reduce el embudo. Mata al ticket chico |
+| **Cobrar por prioridad** | Añades algo que nadie tenía | No reduce nada. Solo añade |
+
+Y tu razón es exacta: **"nadie quiere empezar a pagar para invertir poco."** Si alguien invierte
+$25,000 y le cobras $500 al año, le quitaste 2% antes de que el activo rinda nada. La cuenta no
+cierra para él, así que no entra — y el que no entra tampoco se convierte en el LP acumulado que
+necesitas para la fase 2. El peaje te cuesta dos veces.
+
+Eso está bien pensado. El problema está en la otra mitad.
+
+---
+
+## 9. La prueba que tiene que pasar cualquier membresía
+
+> *"Para que un negocio de ingreso recurrente sea de verdad recurrente — uno de los errores
+> grandes es que la gente toma algo que es **inherentemente valioso** e intenta facturarlo
+> **como si fuera consumible.** La educación tiene un valor único altísimo. El día antes de que
+> sepas anunciar, anunciar es increíblemente valioso. El día después de que sabes anunciar, ¿por
+> qué pagaría por algo que ya sé hacer? **Va de enorme a cero.** ... La continuidad es muy difícil
+> de construir si tu propuesta de valor principal es educación. En cualquier negocio de ingreso
+> recurrente **necesitas crear, o al menos demostrar, valor consumible.**"*
+> — [*Helping an Online Coach Get to $1M/Month* — 01:30](https://www.youtube.com/watch?v=-54qGpM3q0M&t=90s)
+
+**La prueba: ¿el miembro consume esto todos los meses, o lo usa una vez y ya?**
+
+Aplícala a *"acceso prioritario a activos y oportunidades"*:
+
+1. El LP paga la membresía
+2. Le llega el deal con prioridad
+3. Invierte $100,000
+4. **Su capital queda comprometido 7 años**
+5. ¿Para qué sigue pagando la membresía? **No puede volver a invertir.**
+
+El valor va de enorme a cero **en el primer uso**, igual que en la cita. Diseñaste un producto de
+valor único y lo estás facturando como suscripción. Es el error exacto que describe.
+
+### Y peor: la anti-selección
+
+Mira quién se queda pagando:
+
+| LP | ¿Sigue pagando? | ¿Te genera ingreso del lado del sponsor? |
+|---|---|---|
+| El que invirtió | **No.** Ya usó la membresía y está ilíquido | **Sí** — tú cobras el AUM de su deal |
+| El que nunca invierte | **Sí.** Sigue esperando "el bueno" | **No** |
+
+**Tu ingreso de membresía vendría de la gente que no transa, y lo perderías justo cuando alguien
+sí transa.** Está invertido. El cliente ideal de esa membresía es el que nunca te hace ganar dinero.
+
+---
+
+## 10. Y hay un problema anterior al regulatorio: la prioridad no es tuya para venderla
+
+Esto no necesita abogado para verse.
+
+**En una emisión Reg D, quien decide la asignación es el emisor, no la plataforma.** El sponsor
+mira su lista de LPs, decide a quién le da cuánto, y cierra. Tú ejecutas.
+
+Si le vendes "prioridad" a un miembro:
+- El sponsor llena el deal con su propia lista → **tu miembro no recibió nada**
+- Tienes un cliente que pagó por una promesa que **no estaba en tu poder cumplir**
+- Y para cumplirla tendrías que pedirle al sponsor —tu cliente que paga— que le dé preferencia a
+  alguien de tu lista por encima de los suyos. **Le estás pidiendo un favor a quien te factura.**
+
+Estarías vendiendo un producto cuyo cumplimiento depende de un tercero con incentivos opuestos.
+Eso no es un riesgo legal, es un producto roto.
+
+---
+
+## 11. Lo regulatorio, que además es serio
+
+Cada pieza de "acceso prioritario a oportunidades" abre una pregunta distinta. **No son mías de
+responder; son de tu abogado de valores, y esta lista es para que llegues con ellas escritas:**
+
+| Pieza del diseño | La pregunta |
+|---|---|
+| Cobrar por recibir ofertas | ¿Cobrar por acceso a ofertas de valores me convierte en intermediario registrable? |
+| Una lista de pago que recibe deals | En 506(b) no hay solicitación general. ¿Una membresía pagada **crea** la relación previa y sustantiva, o la contamina? **Puede cortar en los dos sentidos** |
+| Prioridad en la asignación | ¿Preferir a quien me paga crea deberes frente a los demás inversionistas? |
+| Cualquier cobro al inversionista | ¿Afecta la exención bajo la que se hizo la emisión? |
+
+La segunda es la que hace que esto no sea un detalle: **el mecanismo que quieres usar para vender
+la membresía es el mismo mecanismo que determina si la emisión del sponsor es válida.** Un error
+ahí no te cuesta la membresía, le cuesta la emisión a tu cliente.
+
+---
+
+## 12. La versión limpia: prioridad en **estar listo**, no en **acceso**
+
+Esto te da casi todo lo que querías, sin nada de lo anterior.
+
+**Todos ven el deal en el mismo momento. El miembro puede *actuar* en minutos y el no-miembro en
+días.**
+
+| | No miembro | Miembro |
+|---|---|---|
+| ¿Cuándo ve el deal? | **Al mismo tiempo** | Al mismo tiempo |
+| KYC / AML | Lo empieza ahora: 2–5 días | **Ya hecho** |
+| Acreditación documentada | La junta ahora | **Ya en expediente** |
+| Firma de suscripción | Lee y firma de cero | **Pre-cargada, firma en minutos** |
+| Fondeo | Coordina transferencia | **Instrucciones ya validadas** |
+
+**Por qué esto funciona y lo otro no:**
+
+- **No prometes asignación.** No prometes nada que no controles. Solo vendes preparación, que es
+  100% tuya.
+- **Pero en un deal sobre-suscrito, la velocidad *es* la asignación.** El miembro gana de facto,
+  sin que tú hayas preferido a nadie. Obtienes el efecto de la prioridad sin venderla.
+- **No hay divulgación selectiva.** Todos reciben lo mismo a la misma hora.
+- **Te cuesta cero entregarlo.** Ese KYC lo ibas a hacer igual; solo lo haces antes.
+- **Y es honesto:** *"pagas por estar listo, no por tener ventaja."* Se puede decir en voz alta
+  delante del sponsor y delante de los otros LPs, que es la prueba real de un diseño limpio.
+
+⚠️ Sigue siendo tema de abogado si una cuota por pre-verificación tiene implicaciones, pero es
+una pregunta mucho más chica que las cuatro de §11.
+
+---
+
+## 13. Lo que de verdad es consumible: la membresía correcta
+
+Vuelve a la prueba de §9: **¿qué usa el LP todos los meses durante 7 años?**
+
+No es acceso a deals nuevos — está ilíquido, no puede comprar. Es **todo lo relativo al dinero que
+ya tiene adentro.** Y eso lo consume continuamente, exactamente durante el período en que la otra
+membresía valdría cero:
+
+| Pieza | ¿Consumible? | Por qué paga |
+|---|---|---|
+| Posición en vivo y valuación | ✅ Mensual | Hoy recibe un PDF trimestral tarde |
+| Documentos fiscales consolidados | ✅ Anual, crítico | Hoy persigue K-1s de 5 sponsors distintos |
+| Historial de distribuciones | ✅ Continuo | Hoy lo lleva en su propio Excel |
+| **Consolidación multi-sponsor** | ✅ **Mensual** | **Ver sus 5 deals en una pantalla. Nadie se lo da hoy** |
+| Solicitud de liquidez | ✅ Cuando la necesita | La vía ① de §3, para el activo que ya tiene |
+| Datos de términos comparables en PR | ✅ Por deal | Hoy negocia sin ningún referente |
+
+**La inversión del diseño, en una línea:**
+
+| | Tu versión | La versión que pasa la prueba |
+|---|---|---|
+| Qué vende | Acceso a lo que **todavía no tiene** | Control de lo que **ya tiene** |
+| Cuándo vale | **Antes** de invertir | **Después**, durante 7 años |
+| Valor tras el primer uso | **Cero** | **Crece** (más posiciones, más historial) |
+| ¿Quién paga? | El que no transa | **El que sí invirtió** |
+| ¿Resuelve tu objeción del ticket chico? | No — el costo va antes del beneficio | **Sí** — se paga de las distribuciones ya recibidas |
+| ¿Prometes algo de un tercero? | **Sí** | No |
+
+Y fíjate que tu propia objeción se resuelve sola: el LP que no ha invertido no paga $20. **El LP
+con $100,000 adentro recibiendo distribuciones paga $200 al año sin pestañear**, porque el costo
+sale de un flujo que ya existe.
+
+---
+
+## 14. La pieza que vuelve esto un motor, no una cuota
+
+De la tabla de §13, una fila es distinta a todas: **la consolidación multi-sponsor.**
+
+Si tu miembro está en 5 deals privados y solo 2 usan Finera, su pantalla muestra 2 de 5.
+**Está pagando por una vista incompleta, y completarla requiere que los otros 3 sponsors entren.**
+
+```
+LP paga membresía
+      ↓
+ve 2 de sus 5 deals
+      ↓
+quiere los otros 3 adentro
+      ↓
+"¿por qué tú no lo haces como Finera?"  →  a 3 sponsors, por su cuenta
+      ↓
+sponsors nuevos = tu cliente que PAGA el AUM
+```
+
+Eso es un **cliente que paga y que además recluta a tus clientes principales.** Es el motor ②c de
+[`MOTORES.md`](./MOTORES.md) §1, pero con un mecanismo de dinero adentro y con una razón egoísta
+en vez de generosa. De todo lo discutido, **esto es lo que yo construiría.**
+
+---
+
+## 15. La estructura de precio
+
+> *"Los $12,000 van a compensar el CAC. Puedes quedar a la par en los $12,000 si sabes que esa
+> persona entra a una membresía de $3,000 al año, que es prácticamente todo margen y no se va.
+> Eso te permite gastar muchísimo más que tu competencia, porque ellos necesitan ganar en los 12 y
+> tú puedes quedar a la par. Y entonces tienes esta **pila de facturas de $3,000 que se van
+> acumulando**, con muy poco esfuerzo de mantener."*
+> — [*Helping a Real Estate Education Business Scale to $3M* — 03:00](https://www.youtube.com/watch?v=sGiObaoef10&t=180s)
+
+Traducido a tu caso — y es exactamente tu intuición del peaje, formalizada:
+
+| Capa | Precio | Quién | Propósito |
+|---|---|---|---|
+| **Acceso a los deals** | **$0. Siempre** | Cualquier inversionista acreditado | Es tu front end del lado LP. **No le pongas peaje nunca** |
+| Pre-verificación ("estar listo") | Cuota baja o incluida | El LP que quiere actuar rápido | Elimina fricción en el momento de suscribir |
+| **Membresía de administración** | Recurrente, modesta | **El LP que ya invirtió** | La pila que se acumula. Todo margen |
+| Liquidez secundaria | Por transacción | El LP que sale | Fase 2, cuando haya densidad |
+
+**El acceso gratis no es generosidad, es el embudo.** Cada LP que entra gratis es inventario de la
+fase 2, y lo acumulas mientras el sponsor paga la cuenta.
+
+---
+
+## 16. Resumen de la Parte II
+
+| Tu planteamiento | Veredicto |
+|---|---|
+| "El LP no es cliente por acceso; cobrar acceso es peligroso" | ✅ **Correcto, y por la razón correcta.** El peaje en la demanda cuesta doble |
+| "Nadie paga para invertir poco" | ✅ **Correcto.** El costo no puede ir antes del beneficio |
+| "Membresía con prioridad de acceso a activos y oportunidades" | ❌ **Rediseñar.** Valor único facturado como recurrente, anti-selecciona a quien no transa, y promete una asignación que decide el sponsor, no tú |
+| "Prioridad, entre muchas cosas más" | ✅ **La intuición es buena.** La forma limpia es **prioridad en estar listo**, no en acceso |
+
+**Lo que mantengo de antes:** el LP paga en fase 2, no en fase 1, porque no puedes adquirirlo río
+arriba del sponsor. **Lo que cambia con tu objeción:** cuando pague, no paga por entrar — **paga
+por administrar lo que ya tiene adentro.** Eso es consumible, se cobra de un flujo existente, y la
+pieza de consolidación multi-sponsor lo convierte en el único cliente que te trae más clientes.
