@@ -10,7 +10,10 @@ Léelos en este orden:
 | 1 | **[AUDITORIA-CANVAS.md](./AUDITORIA-CANVAS.md)** | Qué está mal en las casillas 1, 3 y 4 del business model canvas, el ejercicio de la restricción, y por qué las instituciones no son cliente todavía (anexo) |
 | 2 | **[MOTORES.md](./MOTORES.md)** | Los dos motores de ingreso (recurrencia y referido), el bucle de los LPs, y la casilla 8 ordenada por grupos |
 | 3 | **[CLIENTE-LP.md](./CLIENTE-LP.md)** | ¿El inversionista puede ser cliente? (I), diseño de la membresía (II), las cuatro estructuras de cobro (III), y la comisión en el secundario con lo que hay que decidir en el deal #1 (IV) |
-| 4 | **[COLABORACIONES.md](./COLABORACIONES.md)** | Con qué despachos y CPAs colaborar, cómo elegirlos, y el guion de la primera reunión |
+| 4 | **[MAPA-CLIENTES.md](./MAPA-CLIENTES.md)** | **Los 18 clientes completos**, por lado del negocio, con fase, condición de disparo y el grafo de desbloqueo |
+| 5 | **[COLABORACIONES.md](./COLABORACIONES.md)** | Con qué despachos y CPAs colaborar, cómo elegirlos, y el guion de la primera reunión |
+
+**Versión visual del mapa de clientes:** https://claude.ai/artifact/NxHmzaFTiJseKrRCtFRaCT
 
 ## Las decisiones ya tomadas
 
@@ -18,7 +21,8 @@ Léelos en este orden:
 |---|---|
 | Segmento primario | Sponsor de real estate / private credit de PR que levanta $2–10M, 2–6 veces al año, **de su propia lista de LPs** |
 | Instituciones | **No son cliente todavía.** Van al canvas de expansión con 4 condiciones de disparo. El institucional alcanzable (gestor emergente) ya está dentro de la definición del sponsor |
-| Casilla 1 | **Un renglón** |
+| Casilla 1 del canvas primario | **Un renglón** (E1, con E2 y E3 escritos como el mismo avatar) |
+| Los otros 15 clientes | Escritos en `MAPA-CLIENTES.md` con fase y condición de disparo, en canvas de expansión fechados |
 | Canales año 1 | **Uno**: venta directa del fundador sobre la lista de Form D |
 | Casilla 4 (relaciones) | **Dos** entradas: retención en el borde del deal + activación de nodos |
 | LPs | Casilla 6 (recurso) en el canvas primario; casilla 1 en un canvas de expansión fase 2 |
