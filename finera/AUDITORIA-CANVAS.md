@@ -259,3 +259,162 @@ primera emisión nunca. Si te encuentras explicándole a un prospecto cómo cons
 
 **Lo que las tres comparten:** están llenas con lo que *podrías* hacer. El canvas solo empieza a
 servir cuando cada casilla dice lo que *vas* a hacer y, por lo tanto, a qué le estás diciendo no.
+
+---
+---
+
+# Anexo — "¿Entonces mis clientes son los sponsors y las instituciones?"
+
+**El sponsor sí. Las instituciones todavía no** — y la razón es más dura que "son lentas".
+
+---
+
+## A1. Primero, "sponsor" ya trae un filtro adentro
+
+No es *sponsors* en general. Es el perfil que ya definimos, y los tres criterios importan:
+
+> El sponsor de real estate o private credit de Puerto Rico que levanta **$2–10M por deal**, de
+> **su propia lista de LPs**, entre **2 y 6 veces al año**.
+
+Un sponsor haciendo su primera emisión es un cliente distinto: no tiene LPs, no tiene relación con
+un abogado, y consume soporte sin límite. Si te encuentras explicándole cómo conseguir
+inversionistas, ese no es tu cliente (§"El cambio de cliente que vale la pena conocer").
+
+---
+
+## A2. Las instituciones fallan uno de los tres filtros — y la regla era los tres
+
+| Criterio | Instituciones |
+|---|---|
+| Dolor urgente y específico | ❌ No urgente. Ya tienen un administrador y funciona "suficientemente bien" |
+| Capacidad de pago | ✅ Sí |
+| Alcanzabilidad eficiente | ❌ Ciclo de ~18 meses |
+
+Dos de tres no es aprobar. Pero el conteo no es el argumento fuerte — los dos siguientes sí.
+
+---
+
+## A3. El reencuadre: el ciclo largo no es el problema, es un hecho
+
+Este caso es casi idéntico al tuyo, pero el fundador ya factura $4M al año:
+
+> *"Vendo software de experiencia de cliente a bancos, retailers y dependencias de gobierno...
+> mi problema más grande ahora son los ciclos de venta muy largos, y por eso el CAC alto."*
+> — *"**¿Cuál es el problema?** ... Sigue. **El hecho de que tome mucho tiempo no es un problema,
+> es simplemente un hecho.**"* — *"El problema... la restricción del negocio es el capital."*
+> — [*Helping a $4M SaaS Survive Long Sales Cycles* — 00:00](https://www.youtube.com/watch?v=xv2TOH_5F6A&t=0s)
+
+**El ciclo de 18 meses no es el problema. El problema es que no tienes 18 meses de capital.**
+
+La diferencia entre esas dos frases es enorme. La primera suena a que la paciencia lo resuelve.
+La segunda es una restricción dura: o tienes con qué esperar, o no entras.
+
+### Y fíjate en cómo ese fundador llegó ahí
+
+> *"Cuando empezamos la plataforma hace 3 años era un producto simple, ciclo de venta más corto,
+> menor valor, comprador más chico. Al hacer mucho I+D, el ROI que generamos es mucho más alto,
+> comprador más grande, **pero ahora ciclo de venta más largo**... no quiero caer en jaque mate."*
+
+Fue **de ciclo corto a ciclo largo** persiguiendo un comprador mejor, y eso lo metió en una trampa
+de capital **teniendo ya $4M de ingreso recurrente.** Tú estarías empezando *dentro* de esa trampa,
+desde $0.
+
+---
+
+## A4. La razón más dura: tu única herramienta contra el cero historial no funciona ahí
+
+Lo que sí puedes hacer sin track record:
+
+> *"La prueba por encima de todo. **Tienes que compensar el hecho de que no tienes historial
+> ganando donde puedas.** Vas a ganar en servicio. Vas a decir: 'mira, aquí está mi celular, yo soy
+> el dueño, voy a hacer todo lo que pueda para asegurarme'. Y segundo, tienes un incentivo
+> claramente alineado: 'necesito testimonios, hermano, necesito prueba'. Así que voy a hacer todo
+> lo posible para que ganes."*
+> — [*How to Get Your First Clients With Zero Proof* — 00:00](https://www.youtube.com/watch?v=QgvX_5km_Yo&t=0s)
+
+**Eso funciona sobre un humano que puede decidir solo.** Un sponsor es exactamente eso: una
+persona, con un deal, que puede decir sí el jueves.
+
+**Una institución quitó a ese humano de la decisión.** Entre tú y el sí hay procurement, revisión
+de riesgo de proveedor, requisitos de certificación y auditoría, seguros, y referencias de otros
+clientes institucionales. **Lo que una institución exige con más fuerza es precisamente lo único
+que no tienes — y no se puede compensar con esfuerzo, servicio ni celular personal.**
+
+| | Sponsor | Institución |
+|---|---|---|
+| ¿Quién decide? | **Una persona** | Un comité y un proceso |
+| ¿Acepta "aquí está mi celular"? | **Sí** | No existe esa casilla en su formulario |
+| ¿Acepta ser el primero? | **Sí, a cambio de precio y servicio** | **No.** Pide referencias que no tienes |
+| ¿Se puede compensar el cero historial? | **Sí** | **No** |
+
+> **Las instituciones no son un cliente lento. Son un cliente para el que todavía no calificas.**
+> La puerta no está lejos: está cerrada con llave, y la llave son referencias y operación
+> auditada. Eso no lo acelera la insistencia.
+
+Y la regla general:
+
+> *"Para los simples mortales, la mayor parte del tiempo hay que tener la prueba antes del pudín...
+> Tenemos que mostrar que podemos hacerlo. Y tan pronto lo haces..."*
+> — [*The Real Problem You Don't Want to Face* — 01:30](https://www.youtube.com/watch?v=wH3VBdJ1jbE&t=90s)
+
+---
+
+## A5. El costo real de dejarlas en la casilla 1
+
+No es el tiempo. Es que **las instituciones son la forma más atractiva de no vender.**
+
+Reuniones grandes, números grandes, gente seria, *"muy interesante, hablemos el próximo
+trimestre"*. **Se siente como progreso y no produce nada.** Un trimestre de conversaciones
+institucionales puede dejarte con cero ingreso y la sensación de haber trabajado mucho — mientras
+los sponsors de la lista de Form D siguen sin recibir tu llamada.
+
+Vale la pena nombrarlo porque es el riesgo específico del patrón que has mostrado en todo este
+proceso: **preferencia por el alcance máximo.** 14 clases de activo, 10 tipos de cliente, 9 fuentes
+de ingreso, 6 canales. Las instituciones son la versión más seductora de ese mismo impulso.
+
+---
+
+## A6. Conviértelas de segmento en hito
+
+Igual que hicimos con los LPs en [`CLIENTE-LP.md`](./CLIENTE-LP.md) §25. En vez de dejarlas en la
+casilla 1, escríbelas como **condición de disparo** en el canvas de expansión:
+
+> **Las instituciones se vuelven alcanzables cuando tengamos:**
+> - ≥ 10 emisiones ejecutadas y cerradas
+> - ≥ $X administrados bajo plataforma
+> - Auditoría externa completada
+> - **3 sponsors dispuestos a servir de referencia por nombre**
+
+Eso convierte una distracción en una meta, y te dice exactamente qué construir para abrir esa
+puerta. Mientras no se cumplan las cuatro, perseguirlas es gastar el recurso más escaso que tienes.
+
+---
+
+## A7. Y lo que puede que ya tengas sin verlo
+
+Existe un cliente "institucional" **alcanzable hoy** — y ya está dentro de tu definición de sponsor.
+
+El **gestor emergente** que levanta $2–10M por deal con su propia lista de LPs es institucional
+*en estructura* (tiene vehículo, LPs, administración, obligaciones de reporte) pero decide
+*como emprendedor*: rápido, una persona, sin procurement, y **acepta ser el primero** a cambio de
+precio y servicio.
+
+Las "instituciones" que estás imaginando —fondos grandes, bancos, aseguradoras— son las de la
+puerta cerrada de A4.
+
+**No abras un segmento nuevo. Reconoce que el institucional que sí puedes atender ya está contado
+en la casilla 1.** Es la misma persona, vista desde otro ángulo.
+
+---
+
+## A8. Respuesta
+
+| | |
+|---|---|
+| *"Mis clientes son los sponsors..."* | ✅ **Sí** — con el filtro de A1: $2–10M, lista propia de LPs, 2–6 veces al año |
+| *"...e instituciones"* | ❌ **Todavía no.** No por lentas, sino porque **tu única herramienta contra el cero historial no funciona sobre un comité** |
+| ¿Dónde van entonces? | Canvas de expansión, con las cuatro condiciones de disparo de A6 |
+| ¿Hay un institucional alcanzable? | **Sí, y ya lo tienes:** el gestor emergente. Está dentro de la definición del sponsor |
+
+**Tu casilla 1 tiene un renglón.** No cuatro, no dos. Uno — y es el único que puede decirte sí
+esta semana.
